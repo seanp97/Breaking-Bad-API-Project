@@ -19,7 +19,6 @@ class BreakingBad extends Component {
         const data = await BBResults.json();
         this.setState({ breakingBadData: data });
         this.setState({ loading: false });
-        console.log(this.state.breakingBadData);
     }
 
     render() {
