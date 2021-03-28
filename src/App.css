@@ -53,4 +53,5 @@ header h1 {
 .breakingWrapper .single-item img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
