@@ -18,7 +18,6 @@ class BreakingBad extends Component {
         const BBResults = await fetch('https://breakingbadapi.com/api/characters');
         const data = await BBResults.json();
         this.setState({ breakingBadData: data });
-        this.state.breakingBadData = this.state.breakingBadData.join(', ');
         this.setState({ loading: false });
     }
 
