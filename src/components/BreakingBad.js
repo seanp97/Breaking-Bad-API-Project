@@ -32,7 +32,7 @@ class BreakingBad extends Component {
                                     <h2>{item.name}</h2>
                                     <h2>Nickname: {item.nickname}</h2>
                                     <h4>Birthday: {item.birthday}</h4>
-                                    <h4>Occupation: {item.occupation}</h4>
+                                    <h4>Occupation: {item.occupation} </h4>
                                     <h4>Status: {item.status}</h4>
                                     <h4>Appearance: {item.appearance}</h4>
                                     <h4>Portrayed by: {item.portrayed}</h4>
